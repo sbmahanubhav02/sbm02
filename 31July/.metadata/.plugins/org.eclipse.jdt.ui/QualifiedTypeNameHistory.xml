@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.hrms.aitglobalinc.base.Base_Test"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
+    <fullyQualifiedTypeName name="com.hrms.aitglobalinc.listners.AnnotationTransformer"/>
+    <fullyQualifiedTypeName name="javax.swing.text.Utilities"/>
+</qualifiedTypeNameHistroy>

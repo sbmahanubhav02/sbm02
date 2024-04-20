@@ -1,0 +1,93 @@
+package com.hrms.aitglobalinc.base;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.io.FileHandler;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import com.hrms.aitglobalinc.factory.DriverFactory;
+import com.hrms.aitglobalinc.pages.Admin.Admin_DashBoard_Page;
+import com.hrms.aitglobalinc.pages.Admin.Admin_QuickLinks_Page;
+import com.hrms.aitglobalinc.pages.HRMS.HRMS_Candidates_Page;
+import com.hrms.aitglobalinc.pages.HRMS.HRMS_Interviews_Page;
+import com.hrms.aitglobalinc.pages.HRMS.HRMS_JobOpenings_Page;
+import com.hrms.aitglobalinc.pages.HRMS.HRMS_Dashbord_Page;
+import com.hrms.aitglobalinc.pages.LogIn.ForgotPasswordLink_Page;
+import com.hrms.aitglobalinc.pages.LogIn.LoginPage_Page;
+import com.hrms.aitglobalinc.utils.ElementUtilities;
+
+public class Base_Test {
+
+	public WebDriver driver;
+	public Properties prop;
+	public DriverFactory df;
+
+	public LoginPage_Page Login;
+	public LoginPage_Page HomePage; // Added By mdintisar
+	public HRMS_Dashbord_Page HrmsPage;
+	public ForgotPasswordLink_Page ForgotPasswordPage; // Added By Shubham
+
+	public Admin_DashBoard_Page AdminPage;// RHQA
+	public HRMS_JobOpenings_Page JobOpeningsTablePage; // added by shubham
+	public HRMS_Interviews_Page InterviewsTablePage; // added by shubham
+
+	
+
+//	public HRMS_Interviews_Page CreateInterviewPage;
+	public HRMS_Candidates_Page CandidatesTablePage; // RHQA
+
+	public Admin_QuickLinks_Page QuicklinksPage;// RHQA
+
+	public LoginPage_Page LoginPage;
+	public static Logger log = Logger.getLogger(Base_Test.class);
+
+	@BeforeTest
+	public void setup() {
+
+		log.info("DriverFactory initiated...");
+		df = new DriverFactory();
+
+		try {
+			prop = df.initProp();
+		} catch (FileNotFoundException e) {
+
+			e.printStackTrace();
+		}
+		driver = df.initDriver(prop);
+
+		Login = new LoginPage_Page(driver);
+		HrmsPage = new HRMS_Dashbord_Page(driver);
+		ForgotPasswordPage = new ForgotPasswordLink_Page(driver);
+		QuicklinksPage = new Admin_QuickLinks_Page(driver);
+		AdminPage = new Admin_DashBoard_Page(driver);
+		JobOpeningsTablePage = new HRMS_JobOpenings_Page(driver);
+		InterviewsTablePage = new HRMS_Interviews_Page(driver);
+		CandidatesTablePage = new HRMS_Candidates_Page(driver); 
+		ForgotPasswordPage = new ForgotPasswordLink_Page(driver);
+		LoginPage = new LoginPage_Page(driver);
+
+	}
+
+
+
+
+//	@AfterTest
+//	public void tearDown() {
+////		ElementUtilities.shortWait();
+//		ElementUtilities.mediumWait();	
+//		driver.quit();
+//		log.info("Quit from the Browser... ");
+//	}
+
+
+
+}

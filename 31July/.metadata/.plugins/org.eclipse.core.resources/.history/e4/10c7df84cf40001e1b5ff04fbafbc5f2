@@ -1,0 +1,263 @@
+package com.hrms.aitglobalinc.constants;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class AppConstants {
+
+	public static final int SMALL_DEFAULT_TIME_OUT = 5;
+	public static final int MEDIUM_DEFAULT_TIME_OUT = 10;
+	public static final int NORMAl_DEFAULT_TIME_OUT = 17;
+	public static final int LONG_DEFAULT_TIME_OUT = 20;
+
+//Reset PassWord Constant Values  * @author shubham.m
+	public static final String username = "shubham.mahanubhav@aitglobalinc.com";
+//	public static final String username = "deepti.debnath@aitglobalinc.com";
+	public static final String password = "Sanket@1234";
+	public static final String opt = "464435"; // Added By Shubham
+	public static final String enterOptTitle = "Enter Code"; // Added By Shubham
+	public static final String forgotPasswordPopupTitle = "Forgot password?"; // Added By Shubham
+	public static final String errorMsgWithoutEnteringEmailId = "Please enter email address"; // Added By Shubham
+//	public static final String errorMsgWithoutEnteringOtp = "OTP is required."; // Added By Shubham
+	public static final String errorMsgWithoutEnteringOtp = "Please enter OTP"; // Added By Shubham
+	public static final String invalidOtpError = "Invalid OTP"; // Added By Shubham
+	public static final String LOGIN_PAGE_TITLE = "AIT Portal";
+	public static final String LOGIN_PAGE_URL_FRACTION = "aitglobalindia";
+
+// HRMS Dashbiard Page
+	public static final String HRMS_DASHBOARD_PAGE_TITLE = "HRMS Dashboard";
+
+	// Home_Page Constant value---Added By Prasunb
+	// public static final String HOME_PAGE_TITLE ="AIT Portal";
+	// public static final String
+	// HOME_PAGE_URL_FRACTION="aitglobalindia.com/dashboard";
+
+	// JobOpening Page Constant value----------@Anup
+
+	// JobOpening Page Constant value----------@Anup
+
+//	 public static final String PostingTitle="QA Lead";
+//	   public static final String DateOpened="04/06/2023";
+//	    public static final String Number_of_Positions="1";
+//	    public static final String year="2024";
+//	    public static final String month="January";
+//	    public static final String date="1";
+//	    public static final String Qualification="BE";
+//	    public static final String JobType="Training";
+	// -----
+
+	public static final String DATE_OPENED = "20/08/2023";
+	public static final String TARGET_DATE = "20/09/2023";
+	public static final String REASION_FOR_REQUIREMENT = "Arjant Requirement";
+	public static final String SKILLSET = "JAVA";
+	public static final String BUDGET = "200000";
+	public static final String JOBDESCRIPTION = "Sr.Automation Engineers ";
+	public static final String POSTAL_CODE = "422401";
+
+	// HRMS_Page Constant value---Added By Prasunb
+	public static final String CREATE_JOBOPENING_PAGE_TITLE = "Create a Job Opening"; // added by Shubham
+//	public static final String HRMS_PAGE_TITLE = "AIT Portal";
+//	public static final String HRMS_PAGE_URL_FRACTION = "aitglobalindia.com/hrms";
+//	public static final List<String> EXPECTED_HRMSPAGE_HEADERSLIST = Arrays.asList("Current Job Openings\r\n" + "27",
+//			"Candidates 865", "Todays Interviews 7", "Todays Onboardings 7", "Employees 375");
+// search   * @author shubham.m
+	public static final String JOB_OPENINGS_TABLE_TITLE = "Job Openings";
+	public static final String POSTING_TITLE = "Devops Team";
+	public static final String SEARCH_POSTING_TITLE = "Developer";
+	public static final String JOB_ID = "450";
+	public static final String PRIORITY = "Medium";
+	public static final String DEPARTMENT_NAME = "Internship";
+	public static final String WORK_EXPERIENCE = "1-3 years";
+
+// Interview Search  * @author shubham.m
+	public static final String INTERVIEWS_TABLE_TITLE = "Interviews";
+	public static final String ID = "206";
+	public static final String MRF_POSTING_TITLE = "Devops Team";
+	public static final String INTERVIEW_NAME = "L2 Interview";
+	public static final String CANDIDATE_NAME = "Anup Bajaj";
+	public static final String INTERVIEW_STATUS = "Shortlisted";
+	public static final String NO_RESULT_FOUND_MSG = "No results found.";
+
+
+// Interviews Column Status   * @author shubham.m
+	public static final String CANDIDATE_NAME_COLUMN_NAME = "Candidate Name";
+	public static final List<String> INTERVIEWS_ALL_COLUMNS = Arrays.asList("Checkbox selection", "Actions", "ID",
+			"Interview Name", "From", "To", "Candidate Name", "Department Name", "Posting Title", "Interview Status",
+			"Interviewer", "Type", "Location", "Reminder", "Schedule Comments", "Created By", "Modified By",
+			"Created Date/Time", "Modified Date/Time", "Assessment Name", "Reviewed By", "Reviewed Time", "Round",
+			"Reason For Rejection");
+
+//Interviws Filter  * @author shubham.m
+	public static final String POSTING_TITLE_CONTAINS = "D";
+
+//Cancle Interviews  * @author shubham.m
+	public static final String CANCEL_INTERVIEW_POPUP_TITLE = "Cancel Interview";
+	public static final String FEEDBACK_MESSAGE = "Sorry for Inconvenience Interviewer Not available";
+
+	
+	
+
+//JobOpenings QuickView Page  * @author shubham.m
+	public static final List<String> QUICK_VIEW_VINDOW_TABS = Arrays.asList("DETAILS", "JOB DESCRIPTION", "TIMELINE",
+			"INTERVIEWS", "ATTACHMENTS");
+//ErrorMsg JobOpeningsPage    * @author shubham.m
+	public static final List<String> JOBOPENING_ERROR_MESSAGES = Arrays.asList("Please enter posting title",
+			"Please select date opened", "Please select department name", "Please select target date",
+			"Please select team name", "Please enter number of positions", "Please select job type",
+			"Please select priority", "Please enter total experience in years", "Please select first level approver");
+
+// Colunm Names  * @author shubham.m
+	public static final String COLUMN_NAME = "Job ID";
+	public static final String CREATE_CANDIDATE_PAGE_TITLE = "Create Candidate";
+
+// Create Candidate Page Constant value  * @author shubham.m
+	public static final String FIRST_NAME = "Shubham";
+	public static final String LAST_NAME = "Mahanubhav";
+	public static final String MOBILE_NO = "9852852585";
+	public static final String PHONE_NO = "02535641019";
+
+// Create Interview Page   * @author shubham.m
+	public static final String CREATE_INTERVIEW_POPUP_TITLE = "Create Interview";
+	public static final String CREATE_INTERVIEW_PAGE_TITLE = "Schedule an Interview";
+
+// Candiade Section   * @author shubham.m
+	public static final String CANDIDAE_NAME = "Mr Anup";
+	public static final String CANDIDAE_FIRST_NAME = "Anup";
+	public static final String CREATE_CANDIDAE_PAGE_TITLE = "Create Candidate";
+	public static final List<String> CANDIDAE_ERROR_MESSAGES = Arrays.asList("Please select salutation",
+			"Please enter proper first name", "Please enter proper last name", "Please enter mobile number",
+			"Please enter a valid email address", "Please enter a valid current location",
+			"Please enter a numeric value", "Please enter a numeric value",
+			"Please enter a valid amount for current salary", "Please enter a valid amount for expected salary",
+			"Please enter notice period", "Please select recruiter");
+	public static final String CANDIDAE_STATUS = "New";
+	public static final String EDIT_CANDIDATE_PAGE_TITLE = "Edit Candidate";
+	public static final String SKILL_SET = "Java";
+	public static final String UPDATED_CANDIDATE_STATUS = "Selected - L1";
+	public static final List<String> CANDIDATES_QUICK_VIEW_VINDOW_TABS = Arrays.asList("DETAILS", "TIMELINE",
+			"ATTACHMENTS", "INTERVIEWS", "OFFER LETTER", "RATINGS & REVIEWS");
+
+// Admin Dashboard Section     * @author shubham.m
+	public static final String ADMIN_DASHBOARD_PAGE_TITLE = "Admin";
+	public static final String BANNER_MODULE_TITLE = "Banner";
+	public static final String ADD_BANNER_POPUP_TITLE = "Add Banner";
+	public static final List<String> ADD_BANNER_ERROR_MESSAGES = Arrays.asList("Please enter title",
+			"Please enter banner description or select banner image");
+	public static final String BANNER_TITLE = "International Yoga Day";
+	public static final String DESCRIPTION = "Hello AIT’ians, "
+			+ "This year’s theme is “Yoga for Vasudhaiva Kutumbakam”, which captures the strong and meaningful message of “The World is One Family” "
+			+ "By practicing yoga every day, we get connected to our inner selves and discover the importance of life in a deeper way.";
+	public static final String UPDATED_BANNER_TITLE = "21th Yoga Day";
+
+	public static final String QUICKLINKS_MODULE_TITLE = "Quick Links";
+	public static final String ADD_QUICKLINK_POPUP_TITLE = "Add Quick Link";
+	public static final List<String> ADD_QUICKLINK_ERROR_MESSAGES = Arrays.asList("Please Enter title",
+			"Please enter URL");
+	public static final String QUICKLINK_TITLE = "AIT Zoho";
+	public static final String LINK = "https://people.zoho.in";
+	public static final String UPDATED_QUICKLINK_TITLE = "Zoho People";
+	public static final String DELETE_CONFIRMATION_POPUP_TITLE = "Delete Confirmation";
+
+	public static final List<String> Input_Fields_Labels = Arrays.asList("Email", "Password");
+
+	public static final String Welcome_Text = "Welcome to AIT Global";
+	public static final String Forgot_Pwd_Link_Text = "Forgot password?";
+
+	public static final String Official_WebLink_Text = "AIT Global Inc";
+
+	public static final List<String> Input_Fields_Placeholder = Arrays.asList("email@aitglobalinc.com", "Password");
+
+	public static final String ROW_PER_PAGE_LABEL_TEXT = "Rows per page:";
+
+	public static final String FIRST_PAGE_PAGINATION_SCALE = "1–20 of";
+
+	public static final String SECOND_PAGE_PAGINATION_SCALE = "21–40 of";
+
+	public static final String THIRD_PAGE_PAGINATION_SCALE = "21–40 of";
+
+// JobOpenings Column Names  * @author shubham.m
+	public static final String JOB_ID_COLUMN_NAME = "Job ID";
+	public static final String POSTING_TITLE_COLUMN_NAME = "Posting Title";
+	public static final List<String> JOBOPENING_ALL_COLUMNS = Arrays.asList("Checkbox selection", "Actions", "Job ID",
+			"Posting Title", "Priority", "Status", "Work Experience", "Assigned Recruiter", "Date Opened",
+			"Target Date", "Department Name", "Team Name", "Hiring Manager", "Number of Positions",
+			"Number of Associated Candidates", "1st Level Approval", "2nd Level Approval", "3rd Level Approval",
+			"Job Type", "City", "State/Province", "Country", "Industry", "Created By", "Modified By", "Created Date",
+			"Modified Date", "Salary", "Zip/Postal Code", "Skillset", "Remote Job", "Qualification Required/Desired",
+			"Secondary Skillset", "Reason For Requirement", "1st Level Approver", "2nd Level Approver",
+			"3rd Level Approver", "Budget");
+	public static final List<String> JOBOPENING_ALL_COLUMNS_EMPTY = Arrays.asList("");
+
+//JobOpenings Form Page Section Title  * @author shubham.m
+	public static final String JOB_DETAILS_SECTION = "Job Details";
+	public static final String JOB_LOCATION_SECTION = "Job Location";
+	public static final String APPROVAL_DETAILS_AND_ATTACHMENTS_SECTION = "Approval Details & Attachments";
+
+	public static final String EDIT_JOBOPENING_PAGE_TITLE = "Edit Job Opening";
+	public static final String UPDATED_FIRSTST_LEVEL_APPROVAL = null;
+	public static final String Admin_PAGE_TITLE = null;
+	public static CharSequence admin_PAGE_URL_FRACTION;
+
+	public static final String ACTIVE_SECTION_TITLE = "Job Details";
+	public static final List<String> INACTIVE_SECTION_TITLES = Arrays.asList("Job Location",
+			"Approval Details & Attachments");
+	public static final List<String> ALL_FIELD_LABELS_JOB_DETAILS_SECTION = Arrays.asList("Posting Title *",
+			"Date Opened *", "Department Id *", "Target Date *", "Team Name *", "Hiring Manager",
+			"Number of Positions *", "Assigned Recruiter *", "Job Type *", "Priority *",
+			"Qualification Required/Desired", "Industry", "Work Experience *", "Skillset", "Reason For Requirement",
+			"Secondary Skillset", "Job Opening Status", "Budget");
+	public static final List<String> ALL_FIELD_LABELS_JOB_LOCATION_SECTION = Arrays.asList("Remote Job", "Country",
+			"State", "City", "Zip/Postal Code", "Job Description");
+	public static final List<String> ALL_FIELD_LABELS_APPROVAL_DETAILS_AND_ATTACHMENTS_SECTION = Arrays.asList("Salary",
+			"1st Level Approval *", "1st Level Approver *", "2nd Level Approval", "2nd Level Approver",
+			"3rd Level Approval", "3rd Level Approver", "Job Summary", "Others");
+
+// Home_Page Constant value---Added By Prasunb
+	public static final String HOME_PAGE_TITLE = "AIT Portal";
+	public static final String HOME_PAGE_URL_FRACTION = "aitglobalindia.com/dashboard";
+
+// HRMS_Page Constant value---Added By Prasunb
+	public static final String HRMS_PAGE_TITLE = "AIT Portal";
+	public static final String HRMS_PAGE_URL_FRACTION = "aitglobalindia.com/hrms";
+	public static final List<String> EXPECTED_HRMSPAGE_HEADERSLIST = Arrays.asList("Current Job Openings\r\n" + "27",
+			"Candidates 865", "Todays Interviews 7", "Todays Onboardings 7", "Employees 375");
+
+// To Generate a random Posting Title  - * @author shubham.m
+	static int rand = (int) (Math.random() * 10) + 2;
+	public static final String PostingTitle = "DemoTest" + rand;
+	public static final String DateOpened = "20/04/2023";
+	public static final String Number_of_Positions = "1";
+	public static final String year = "2024";
+	public static final String month = "January";
+	public static final String date = "1";
+	public static final String Qualification = "BE";
+	public static final String JobType = "Training";
+
+// JobOpening Page Search page Constant value----------@Anup
+
+//	public static final String Search_PostingTitle="Testing";
+//	public static final String Select_ColumnValue="Priority";
+//	public static final String Select_OperatorValue="starts with";
+//	public static final String Search_Value="h";
+//	public static final String Upload_File="//com.hrms.aitglobalinc_Test Automation//Files//Type of parameter in grid and graph widget.png";
+
+//Candidate1 Page Constant Values-- Added by RHQA	
+	public static final String Candidates_Page_Table_Title = "Candidates";
+//  public static final String Candidates_Page_Table_Title = "Candidates";
+	public static final String Candidates_ID_COLUMN_NAME = "ID";
+	public static final String Candidates_First_COLUMN_NAME = "First Name";
+
+  
+  public static final List<String> CANDIDATES_ALL_COLUMNS = Arrays.asList("Checkbox selection", "Actions", "Ratings", "ID",
+			"First Name", "Last Name", "City", "Total Experience", "Posting Title", "Candidate Status",
+			"Recruiter", "Profile Source", "Email", "Mobile", "Created Date/Time",
+			"Phone", "Street", "State/Province", "Zip Postalcode",
+			"Country", "Current Employer", "Current Job Title", "Skillset", "Qualification", "Expected Salary", "Current Salary", "Skype",
+			"Additional Info", "Created By", "Modified By", "Modified Date/Time", "Email Opt Out", "Secondary Email",
+			"Relevant Experience", "Notice Period", "DOB", "Relative Name",
+			"Marital Status", "Previous Interview", "Previous Interview Outcome", "Relative", "Communication","Joining Date", "Designation Offered", "Employment Type",
+			"Total CTC M", "Total CTC Bonus M","Total CTC", "Annual CTC", "Annual CTC in words", "Total CTC Bonus A", "Photo", "Resume", "Cover Letter", "Others", "Contracts", "Offer", "Current Location","Relocation");
+	public static final List<String> CANDIDATES_EMPTY_COLUMNS = Arrays.asList("");
+
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.nirahrms.aitglobalinc_test-automation&apos; to &apos;com.nira.aitglobalinc_test-automation&apos;" description="Rename resource &apos;com.nirahrms.aitglobalinc_test-automation&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/com.nirahrms.aitglobalinc_test-automation" name="com.nira.aitglobalinc_test-automation" stamp="1693301385655" updateReferences="true"/>
+</session>
